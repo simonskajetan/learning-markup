@@ -1,2 +1,3 @@
 git-navigation
-https://simonskajetan.github.io/markdown-to-html/exercises/chapter.1/ex1/index.html
+https://simonskajetan.github.io/learning-markup/exercises/1.html/ex1/
+
