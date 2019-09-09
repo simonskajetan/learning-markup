@@ -1,4 +1,17 @@
 .wrapper{
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(5, 238, 17, 0.692);
+    border: 3px solid black;
+    margin-top: 10px;
+
+}
+
