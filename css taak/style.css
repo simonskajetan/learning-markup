@@ -1,0 +1,87 @@
+
+    header {
+    display: flex;
+    background-image: url(rickmorty.png);
+    border: 1px solid black;
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    flex-direction: column;
+    align-items: center;
+      }
+
+h1 {color: rgb(160, 160, 160);
+text-align: center;
+;} 
+
+.me{
+    height: 300px;
+    width: 300px;
+    
+    
+    
+}  
+#img-wrap{ 
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    z-index:  1;
+}
+
+h2 {text-align: center;
+color: rgb(160, 160, 160);
+}
+#img-wrap:hover >.me{ 
+    -webkit-filter: brightness(40%);
+    overflow: hidden;
+    transform: scale(1.2);
+
+}
+.tablejoy td{
+    
+    text-align: center;
+    color: black
+}
+td, table, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    background-color: lightgray;
+    border-bottom: none;
+}
+.question{
+    background-color: darkgrey
+}
+
+.question { background-color:darkgray; }
+
+    .question:hover{ background-color: #005B03;
+       
+}
+.bgc{
+    background-color: lightgray;}
+    .bgc:hover{ background-color: #550061;
+        
+    }
+    .myfooter{
+        height: 150px;
+        text-align: center;}
+
+
+       
+    
+
+
+
+
+
