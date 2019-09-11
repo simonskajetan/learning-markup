@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(210,210,210);
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 417px;
+    margin: auto;
+    border-style: dashed;
+    border-width: 20px;
+    border-color: black;
+    border: 10px inset;
+
+}
+
+.container>div{
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    border-left-style: none;
+    border-top-style: none;
+}
+.cell-1{
+    color: blue;
+    border: 2px dotted black;
+}
+.cell-2{
+    color: red;
+    border: 2px dotted black;
+}
+.cell-b{
+    color: black;
+    border: 2px dotted black;
+    
+}
+.cell-a{
+    color: gray;
+    border: 2px solid black; 
+    
+}
+.cell-f{
+    color: black;
+    border: 2px dotted black;
+    
+}
+.cell-a:hover{
+    background-color: lightgrey;
+    color: blue;
+    
+}
