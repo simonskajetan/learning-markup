@@ -2,7 +2,7 @@
     header {
     display: flex;
     background-image: url(rickmorty.png);
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 300px;
     background-repeat: no-repeat;
     background-size: auto;
@@ -10,7 +10,7 @@
     align-items: center;
       }
 
-h1 {color: rgb(160, 160, 160);
+h1 {color: rgb(207, 207, 207);
 text-align: center;
 ;} 
 
@@ -28,12 +28,13 @@ text-align: center;
     height: 300px;
     width: 300px;
     z-index:  1;
+    position: relative;
 }
 
 h2 {text-align: center;
-color: rgb(160, 160, 160);
+color: rgb(207, 207, 207);
 }
-#img-wrap:hover >.me{ 
+#img-wrap:hover >.me { 
     -webkit-filter: brightness(40%);
     overflow: hidden;
     transform: scale(1.2);
@@ -65,17 +66,33 @@ td{
 
 .question { background-color:darkgray; }
 
-    .question:hover{ background-color: #005B03;
+    .question:hover{ background-color: rgb(0, 204, 255);
        
 }
 .bgc{
     background-color: lightgray;}
-    .bgc:hover{ background-color: #550061;
+    .bgc:hover{ background-color: #fbff00;
         
     }
     .myfooter{
         height: 150px;
-        text-align: center;}
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: aqua;
+        
+        
+    }
+    #img-wrap:hover > .text {
+        color:rgb(80, 219, 0);
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
 
 
        
