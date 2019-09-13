@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(210,210,210);
+    background-color: rgb(209, 209, 209);
     flex-direction: row;
     justify-content: flex-start;
     align-content: flex-start;
@@ -52,4 +52,7 @@
     background-color: lightgrey;
     color: blue;
     
+}
+.head{
+    color: black;
 }
