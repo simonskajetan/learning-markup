@@ -1,0 +1,96 @@
+@import "variables.scss";
+@import "components.scss";
+@import "reset.scss";
+@import "mixins.scss";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ecf0f5;
+    margin: 0;
+    font-size: 14px;
+}
+.grid{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.navtop{
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background-color: $navcolor;
+}
+.navlogo{
+    padding: 0 15px;
+    background-color: $navlogocolor;
+
+}
+.navleft{
+    content:'';
+    height: 100vh;
+    width: 20%;
+    color:rgb(253, 253, 253);
+    background: $navleftcolor;
+}
+.wrapper-d{
+    display: flex;
+
+
+}
+
+.info{
+    height: 400px;
+    width: 80%;
+
+
+}
+.cpu{
+    box-shadow: 10px;
+    width:$blockS;
+   
+
+}
+.block{
+    background-color: $cpucolor;
+    width: $blockW;
+    height: $blockH;
+}
+.block i{
+    color: $colorW;
+    font-size: $icon;
+}
+
+.man{
+float: right;
+border-radius: 50%;
+width: $smallW;
+height: $smallH;
+margin-right: 10px;
+margin-top: -3px;
+
+}
+.gears{
+    float: right;
+    margin: 15px 15px 0 0;
+}
+.name{
+    float: right;
+}
+footer{
+    margin-left: 230px;
+    padding: 15px;
+    background-color: aqua;
+}
+.flex{
+    display: flex;
+    font-size: 14px;
+    
+}
+
+/* Kris section */
+
+.amountnr {
+    font: $amountfont;
+  }
+

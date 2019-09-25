@@ -1,0 +1,86 @@
+/* Kris section */
+@import "_variables";
+
+.visitorcontainer{
+  display: flex;
+  justify-content: right;
+  * {
+    padding-right: 10px;
+  }
+}
+visitors img{
+ height: 350px;
+  width: 700px;
+}
+.visitordata {
+  display: flex;
+  flex-direction: column;
+}
+.visitordata > * {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.columwrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  * {
+    margin: 0;
+    padding-top: 5px;
+  }
+}
+
+.visitordata p {
+  color: white;
+  font-size: 12px;
+}
+.visitordata i {
+  height: 100%;
+  width: 33%;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 8px;
+}
+
+.inventory {
+  * {
+    background-color: $darkorangebg;
+  }
+  i {
+    background-color: darken($darkorangebg, 10%);
+
+  }
+}
+
+.mentions {
+    *{
+      background-color: $aquabg;
+    }
+  i {
+    background-color: darken($aquabg, 10%);
+  }
+}
+
+.downloads {
+    *{
+      background-color: $chocolatebg;
+    }
+  i {
+    background-color: darken($chocolatebg, 10%);
+    }
+}
+
+.directmessages {
+    *{
+      background-color: $lightbluebg;
+    }
+  i {
+    background-color: darken($lightbluebg, 10%);
+  }
+}

@@ -1,0 +1,177 @@
+/*Kris section*/
+/* Kris section */
+/*Kris section*/
+.visitorcontainer {
+  display: flex;
+  justify-content: right;
+}
+.visitorcontainer * {
+  padding-right: 10px;
+}
+
+visitors img {
+  height: 350px;
+  width: 700px;
+}
+
+.visitordata {
+  display: flex;
+  flex-direction: column;
+}
+
+.visitordata > * {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.columwrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.columwrapper * {
+  margin: 0;
+  padding-top: 5px;
+}
+
+.visitordata p {
+  color: white;
+  font-size: 12px;
+}
+
+.visitordata i {
+  height: 100%;
+  width: 33%;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 8px;
+}
+
+.inventory * {
+  background-color: darkorange;
+}
+.inventory i {
+  background-color: #cc7000;
+}
+
+.mentions * {
+  background-color: aqua;
+}
+.mentions i {
+  background-color: #00cccc;
+}
+
+.downloads * {
+  background-color: chocolate;
+}
+.downloads i {
+  background-color: #a55318;
+}
+
+.directmessages * {
+  background-color: lightblue;
+}
+.directmessages i {
+  background-color: #86c5da;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #ecf0f5;
+  margin: 0;
+  font-size: 14px;
+}
+
+.grid {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navtop {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  background-color: #3c8dbc;
+}
+
+.navlogo {
+  padding: 0 15px;
+  background-color: #367fa9;
+}
+
+.navleft {
+  content: "";
+  height: 100vh;
+  width: 20%;
+  color: #fdfdfd;
+  background: #222d32;
+}
+
+.wrapper-d {
+  display: flex;
+}
+
+.info {
+  height: 400px;
+  width: 80%;
+}
+
+.cpu {
+  box-shadow: 10px;
+  width: 25%;
+}
+
+.block {
+  background-color: #00c0ef;
+  width: 90px;
+  height: 90px;
+}
+
+.block i {
+  color: white;
+  font-size: 50px;
+}
+
+.man {
+  float: right;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
+.gears {
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+.name {
+  float: right;
+}
+
+footer {
+  margin-left: 230px;
+  padding: 15px;
+  background-color: aqua;
+}
+
+.flex {
+  display: flex;
+  font-size: 14px;
+}
+
+/* Kris section */
+.amountnr {
+  font: bold, white;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-content: center;
     flex-direction: column;
     text-align: center;
     
@@ -33,6 +33,6 @@ a:hover{
 h1{
     font-size: xx-large;
     color: orangered;
-
+    
 }
 
