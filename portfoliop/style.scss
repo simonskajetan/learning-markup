@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC&display=swap');
+
+html{
+
+    background-image: url(img/final.jpg);
+    background-size: cover;
+    height: 100%;
+    
+
+
+body{
+
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+
+    .header1{
+        display: flex;
+        justify-content: center;
+        font-family: 'Holtwood One SC', serif;
+        a{
+            text-decoration: none;
+            font-size: 40px;
+            color: white;
+            
+text-shadow: 2px 2px 0px rgb(170, 3, 3), 5px 4px 0px rgba(0,0,0,0.15);
+        }
+    }
+
+    .header1{
+        display: flex;
+        justify-content: space-evenly;
+
+        
+        
+    }
+    
+}
+
+
+#one:hover{
+    transform: scale(1.4);
+
+    a{
+        color: red;
+    }
+}
+
+#two:hover{
+    transform: scale(1.4);
+
+    a{
+        color: red;
+    }
+}
+#three:hover{
+    transform: scale(1.4);
+
+    a{
+        color: red;
+    }
+}
+
+
+    
+
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+
+    .wrap{
+        display: flex;
+        flex-flow: column;
+        width: 80%;
+        justify-content: start;
+
+        .maintxt{
+            font-size: 25px;
+            font-family: serif;
+            color:rgb(255, 255, 255);
+            text-shadow:  rgb(0, 0, 0);
+            padding-left: 20px;
+        }
+        p{
+            font-size: 40px;
+        }
+        h1{
+            color: red;
+            padding-left: 20px;
+        }
+        a{
+            padding-left: 20px;
+            font-family: serif;
+            font-size: 25px;
+            color: grey;
+        }
+       
+        
+    }
+}
+}
+.framefour{
+    display: flex;
+    
+   
+}
+.myfooter{
+    height: 40px;
+    text-align: right;
+    
+    
+    
+}
+#img-wrap {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 150px;
+    bottom: 100px;
+    
+
+    
+    
+    
+    
+
+    
+}
+
+
+    
+
+   
+
